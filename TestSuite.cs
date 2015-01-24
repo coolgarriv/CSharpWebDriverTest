@@ -1,5 +1,5 @@
-using System;
 using OpenQA.Selenium;
+using NUnit.Framework;
 
 
 namespace MyWebDriverTest
