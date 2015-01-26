@@ -8,14 +8,14 @@ namespace MyWebDriverTest
   {
     private IWebDriver driver;
 
-    [FindsBy(How = How.Id, Using = "tbxUsername")]
-    private IWebElement tbxUsername;
+    [FindsBy(How = How.LinkText, Using = "Home")]
+    private IWebElement MenuHome;
 
-    [FindsBy(How = How.Id, Using = "tbxPassword")]
-    private IWebElement tbxPassword;
+    [FindsBy(How = How.LinkText, Using = "Contact")]
+    private IWebElement MenuContact;
 
-    [FindsBy(How = How.Id, Using = "btnLogin")]
-    private IWebElement btnLogin;
+    [FindsBy(How = How.LinkText, Using = "Resources")]
+    private IWebElement MenuResources;
 
     public HomePage(IWebElement driver)
     {
