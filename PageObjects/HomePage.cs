@@ -23,15 +23,11 @@ namespace MyWebDriverTest
         PageFactory.InitElements(driver, this);
     }
       
-      
-      
-    public HomePage UserLogin(string user, string pass)
+    public ContactPage OpenContactPage()  
     {
-        tbxUsername.SendKeys(user);
-        tbxPassword.SendKeys(pass);
-        btnLogin.Click();
-
-        return new HomePage(driver);
+      MenuContact.Click();
+      return new ContactPage(driver);
     }
+    
   }
 }
