@@ -1,7 +1,10 @@
 using System;
 using OpenQA.Selenium;
 
-namespace WebdriverTest1
+namespace MyWebDriverTest
 {
+  public class TestCase1
+  {
   
+  }
 }
