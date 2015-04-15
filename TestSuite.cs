@@ -21,7 +21,7 @@ namespace MyWebDriverTest
             driver.Quit();
         }
         
-        [Test]
+        [Test, Category("Test")]
         public void TestCase01()
         {
             driver.NavigateTo().URL("http://www.webdrivertips.com");
